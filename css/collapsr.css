@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 18px;
+    background: #252932;
+}
+.top-container {
+    width: 100%;
+    height: 60px;
+    background: #f56f6c;
+}
+#toggle {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    -webkit-appearance: none;
+    box-sizing: none;
+}
+#toggle:hover {
+    cursor: pointer;
+}
+#bar {
+    width: 50px;
+    height: 10px;
+    margin-top: 5px;
+    background: #252932;
+}
+#menu {
+    width: 100%;
+    height: 50px;
+    background-color: #195162;
+    color: #fff;
+}
+#menu ul {
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+}
+#menu ul li {
+    display: inline-block;
+    width: 24%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+#menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+.open {
+    margin-left: 0;
+    transition: /*property*/all/*duration*/ 1s;
+    -webkit-transition: all ease-out 1s;
+    -moz-transition: all ease-out 1s;
+    -o-transition: all ease-out 1s;
+}
+.closed {
+    margin-left: -100%;
+    transition: /*property*/all/*duration*/ 1s;
+    -webkit-transition: all ease-in 1s;
+    -moz-transition: all ease-in 1s;
+    -o-transition: all ease-in 1s;
+}
+.item {
+    background: #fff;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.item-header, .item-content {
+    padding: 10px;
+}
+.item-header {
+    border-bottom: 1px solid #252932;
+}
+.item-content {
+    letter-spacing: .07m;
+}
+blockquote {
+    background: #f0f0f0;
+    color: #494949;
+    letter-spacing: .1em;
+    font-family: monospace;
+    font-size: 20px;
+}
+blockquote p {
+    width: 50%;
+}
