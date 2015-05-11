@@ -7,9 +7,11 @@ Functionality provided by JavaScript using the JQuery library.
 collapsr/
 ├── collapsr.html
 ├── css/
-│   ├──collapsr.css
+│   ├── collapsr.css
 ├── js/
 │   ├── collapsr.js
+├── img/
+│   ├── button.png
 ```
 ### v.2
 v.2 updates include changes to the menu icon that remove default Chrome styling, changes to the menu styling to avoid overflow, and changes to the menu item styling to add clickable space and give them equal margins. 
