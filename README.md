@@ -21,5 +21,9 @@ v.2.1 update includes a small change to the animation to make it a bit smoother.
 ### What's to Come
 v.3 will have a better animation and better mobile rendering. In a future version I want to include dropdown menus. Any suggestions for better functionality or design are accepted & appreciated at northwayn@gmail.com
 
+### Live Demo
+You can view a live demo at: http://natenorthway.com/collapsr/collapsr.html
+This demo will be updated alongside the GitHub repository. 
+
 ### Released by Nate Northway
 I'm a web developer/designer based in Milwaukee and attenting MATC for a degree in web & software development. You can visit me at http://natenorthway.com to learn more. 
