@@ -13,9 +13,10 @@ collapsr/
 ├── img/
 │   ├── button.png
 ```
-### v.2
+### v.2.1
 v.2 updates include changes to the menu icon that remove default Chrome styling, changes to the menu styling to avoid overflow, and changes to the menu item styling to add clickable space and give them equal margins. 
 Any questions, comments, concerns, or otherwise can be directed to northwayn@gmail.com
+v.2.1 update includes a small change to the animation to make it a bit smoother. 
 
 ### What's to Come
 v.3 will have a better animation and better mobile rendering. In a future version I want to include dropdown menus. Any suggestions for better functionality or design are accepted & appreciated at northwayn@gmail.com
