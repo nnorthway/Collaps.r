@@ -115,7 +115,209 @@ blockquote {
     letter-spacing: .1em;
     font-family: monospace;
     font-size: 20px;
+    word-wrap: break-word;
 }
 blockquote p {
     width: 50%;
+}
+@media (max-width: 800px) {/*laptops and desktops smaller than 800px*/
+    #menu {
+        height: 260px;
+        position: fixed;
+        top: 60px;
+        left: 0;
+    }
+    #menu ul li {
+        width: 100%;
+    }
+    .body-content {
+        margin-top: 200px;
+    }
+    .item {
+        width: 100%;
+        border-radius: 0;
+    }
+    blockquote p {
+        width: 90%;
+    }
+    .top-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {/*iphone 5*/
+    #menu {
+        height: 260px;
+        position: fixed;
+        top: 60px;
+        left: 0;
+    }
+    #menu ul li {
+        width: 100%;
+    }
+    .body-content {
+        margin-top: 200px;
+    }
+    .item {
+        width: 100%;
+        border-radius: 0;
+    }
+    blockquote p {
+        width: 90%;
+    }
+    .top-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {/*iphone 6*/
+      #menu {
+        height: 260px;
+        position: fixed;
+        top: 60px;
+        left: 0;
+    }
+    #menu ul li {
+        width: 100%;
+    }
+    .body-content {
+        margin-top: 200px;
+    }
+    .item {
+        width: 100%;
+        border-radius: 0;
+    }
+    blockquote p {
+        width: 90%;
+    }
+    .top-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+}
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {/*iphone 6+*/
+        #menu {
+        height: 260px;
+        position: fixed;
+        top: 60px;
+        left: 0;
+    }
+    #menu ul li {
+        width: 100%;
+    }
+    .body-content {
+        margin-top: 200px;
+    }
+    .item {
+        width: 100%;
+        border-radius: 0;
+    }
+    blockquote p {
+        width: 90%;
+    }
+    .top-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+}
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {/*Galaxy s3*/
+    #menu {
+        height: 260px;
+        position: fixed;
+        top: 60px;
+        left: 0;
+    }
+    #menu ul li {
+        width: 100%;
+    }
+    .body-content {
+        margin-top: 200px;
+    }
+    .item {
+        width: 100%;
+        border-radius: 0;
+    }
+    blockquote p {
+        width: 90%;
+    }
+    .top-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+}
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {/*Galaxy s4*/
+      #menu {
+        height: 260px;
+        position: fixed;
+        top: 60px;
+        left: 0;
+    }
+    #menu ul li {
+        width: 100%;
+    }
+    .body-content {
+        margin-top: 200px;
+    }
+    .item {
+        width: 100%;
+        border-radius: 0;
+    }
+    blockquote p {
+        width: 90%;
+    }
+    .top-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+}
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {/*Galaxy s5*/
+    #menu {
+        height: 260px;
+        position: fixed;
+        top: 60px;
+        left: 0;
+    }
+    #menu ul li {
+        width: 100%;
+    }
+    .body-content {
+        margin-top: 200px;
+    }
+    .item {
+        width: 100%;
+        border-radius: 0;
+    }
+    blockquote p {
+        width: 90%;
+    }
+    .top-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
 }
