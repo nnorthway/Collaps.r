@@ -13,17 +13,16 @@ collapsr/
 ├── img/
 │   ├── button.png
 ```
-### v.2.1
-v.2 updates include changes to the menu icon that remove default Chrome styling, changes to the menu styling to avoid overflow, and changes to the menu item styling to add clickable space and give them equal margins. 
+### v.3
+v.3 updates include improved mobile support for handheld devices and a fixed top bar on mobile devices to account for longer page sizes on smaller width screens.
 Any questions, comments, concerns, or otherwise can be directed to northwayn@gmail.com
-v.2.1 update includes a small change to the animation to make it a bit smoother. 
 
 ### What's to Come
-v.3 will have a better animation and better mobile rendering. In a future version I want to include dropdown menus. Any suggestions for better functionality or design are accepted & appreciated at northwayn@gmail.com
+v.3.1 will include better tablet, wearable, and different screen size compatability. In a future version I want to include dropdown menus. Any suggestions for better functionality or design are accepted & appreciated at northwayn@gmail.com
 
 ### Live Demo
 You can view a live demo at: http://natenorthway.com/collapsr/collapsr.html
-This demo will be updated alongside the GitHub repository. 
+This demo will be updated alongside (read: slightly after) the GitHub repository. 
 
 ### Released by Nate Northway
 I'm a web developer/designer based in Milwaukee and attenting MATC for a degree in web & software development. You can visit me at http://natenorthway.com to learn more. 
